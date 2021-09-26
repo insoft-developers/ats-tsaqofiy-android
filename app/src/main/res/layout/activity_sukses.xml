@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/circle_bg"
+    android:layout_margin="20dp"
+    tools:context=".SuksesActivity">
+
+    <com.mikhaellopez.circularimageview.CircularImageView
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/utama"
+        android:src="@drawable/logo"
+        android:layout_width="100dp"
+        android:layout_height="100dp" />
+
+    <TextView
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="SUKSES CEK-IN "
+        android:layout_marginBottom="10dp"
+        android:id="@+id/judul"
+        android:layout_below="@id/utama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <ImageView
+        android:layout_below="@id/judul"
+        android:id="@+id/logo"
+        android:src="@drawable/ic_check"
+        android:layout_centerInParent="true"
+        android:layout_width="200dp"
+        android:layout_height="200dp" />
+
+    <TextView
+        android:textColor="@android:color/holo_orange_dark"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:textAlignment="center"
+        android:text="SUKSES CEK-IN "
+        android:layout_marginTop="40dp"
+        android:id="@+id/keterangancekin"
+        android:layout_below="@id/logo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+    <Button
+        android:id="@+id/btnok"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_item"
+        android:layout_alignParentBottom="true"
+        android:text="OK"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+
+</RelativeLayout>

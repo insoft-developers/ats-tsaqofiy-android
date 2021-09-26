@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootlayout"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_marginBottom="8dp"
+    android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:background="@drawable/bg_item"
+        android:paddingVertical="10dp"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <com.mikhaellopez.circularimageview.CircularImageView
+            android:scaleType="centerCrop"
+            android:id="@+id/image_menu"
+            android:layout_marginLeft="5dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo"
+            android:layout_width="50dp"
+            android:layout_height="50dp"/>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txt_kelas"
+                android:textStyle="bold"
+                android:textSize="18sp"
+                android:textColor="@color/white"
+                android:padding="2dp"
+                android:text="Kelas I Tsanawiyah"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txt_pelajaran"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:padding="2dp"
+                android:text="Bahasa Arab"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txt_jam"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:padding="2dp"
+                android:text="10:00 WIB - 12:00 WIB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txt_jam_guru"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:padding="2dp"
+                android:text="10:00 WIB - 12:00 WIB"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txt_guru"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:padding="2dp"
+                android:text="Ust Fatih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+            <TextView
+                android:layout_marginHorizontal="10dp"
+                android:layout_gravity="center_vertical"
+                android:id="@+id/txt_keterangan"
+                android:textStyle="bold"
+                android:textSize="15sp"
+                android:textColor="@color/white"
+                android:padding="2dp"
+                android:text="-"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        </LinearLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>
